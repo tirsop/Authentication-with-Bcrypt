@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>LOG IN</title>
+  </head>
+  <body>
+    <h1>LOG IN</h1>
+    <form action="/login" method="post">
+      <div>
+        <label for="username">Enter username:</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="username"
+        />
+      </div>
+      <div>
+        <label for="password">Enter password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="password"
+        />
+      </div>
+      <button>Log In</button>
+    </form>
+    <form action="/register" method="get">
+      <button>Register</button>
+    </form>
+    <form action="/" method="get">
+      <button>HOME</button>
+    </form>
+  </body>
+</html>
